@@ -1,0 +1,26 @@
+{
+  "name": "finance-flow",
+  "version": "1.0.0",
+  "description": "Finance Flow - Track Smarter, Invest Better. AI-powered personal finance & investment tracking platform.",
+  "scripts": {
+    "dev:backend": "cd backend && npm start",
+    "dev:frontend": "cd frontend && npm run dev",
+    "dev:ai": "cd ai_service && python -m uvicorn app:app --port 8000 --reload",
+    "seed": "cd backend && node utils/seeder.js",
+    "build:frontend": "cd frontend && npm run build",
+    "test:api": "node test-apis.js"
+  },
+  "keywords": [
+    "personal-finance",
+    "budget-tracker",
+    "investment-portfolio",
+    "fastapi",
+    "express",
+    "react",
+    "tailwind",
+    "mongodb"
+  ],
+  "author": "Finance Flow Engineering",
+  "license": "MIT"
+}
+
